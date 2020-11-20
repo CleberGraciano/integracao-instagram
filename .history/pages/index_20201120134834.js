@@ -1,7 +1,7 @@
 import { useState } from 'react'
 function Home(){
     return <div>
-         <h2><marquee>Patricia</marquee></h2>
+        <h2>Home</h2>
         <Contador/>
     </div>
 }
@@ -17,7 +17,6 @@ function Contador(){
         <div>
         <div>{contador}</div>
         <button onClick={adicionarContador}>Adicionar Contador</button>
-        <h2><marquee>Patricia</marquee></h2>
         </div>
     )
 }
